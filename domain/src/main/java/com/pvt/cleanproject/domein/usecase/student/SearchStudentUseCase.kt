@@ -1,4 +1,4 @@
-package com.pvt.cleanproject.domein.usecase
+package com.pvt.cleanproject.domein.usecase.student
 
 import com.pvt.cleanproject.domein.entity.SearchParams
 import com.pvt.cleanproject.domein.entity.Student
