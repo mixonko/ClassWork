@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-
 apply plugin: 'kotlin-android'
 
 
@@ -29,4 +28,7 @@ dependencies {
     testImplementation rootProject.junit
     androidTestImplementation rootProject.supportTestRunner
     api project(path: ":domain")
+    implementation rootProject.gson
+    implementation rootProject.okhttp
+    implementation rootProject.okhttpLoging
 }

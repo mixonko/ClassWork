@@ -1,4 +1,4 @@
-package com.pvt.cleanproject.domein.entity
+package com.pvt.cleanproject.domein.entity.student
 
 data class Student(
     val name: String,

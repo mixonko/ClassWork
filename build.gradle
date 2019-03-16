@@ -33,9 +33,18 @@ task clean(type: Delete) {
 
 ext{
     def supportLibVersion = "27.1.1"
+    def okhttpVersion = "3.14.0"
     appcompatV7 = "com.android.support:appcompat-v7:$supportLibVersion"
     kotlin = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
     junit = 'junit:junit:4.12'
     supportTestRunner = 'com.android.support.test:runner:1.0.2'
     supportTestEspresso =  'com.android.support.test.espresso:espresso-core:3.0.2'
+    gson = 'com.google.code.gson:gson:2.8.5'
+    okhttp = "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    okhttpLoging = "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
+
+    //Rx
+    rxjava2 = "io.reactivex.rxjava2:rxjava:2.2.7"
+    rxAndroid = 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
 }

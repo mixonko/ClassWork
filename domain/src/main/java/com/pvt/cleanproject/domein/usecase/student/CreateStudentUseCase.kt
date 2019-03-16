@@ -1,6 +1,6 @@
 package com.pvt.cleanproject.domein.usecase.student
 
-import com.pvt.cleanproject.domein.entity.CreateStudent
+import com.pvt.cleanproject.domein.entity.student.CreateStudent
 
 interface CreateStudentUseCase {
 

@@ -30,4 +30,6 @@ dependencies {
     implementation rootProject.kotlin
     implementation project(path: ":data")
 
+    implementation rootProject.rxAndroid
+
 }
